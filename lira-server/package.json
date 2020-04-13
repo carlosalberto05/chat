@@ -1,0 +1,26 @@
+{
+  "name": "lirabackend",
+  "version": "0.0.1",
+  "description": "Backend para la web www.lirarecords.com",
+  "main": "index.js",
+  "author": "Carlos de Jesús Alberto Lira",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.3",
+    "mongoose-paginate": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  }
+}
