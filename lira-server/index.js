@@ -7,7 +7,7 @@ mongoose.set('useFindAndModify', false)
 
 mongoose.connect(
   `mongodb+srv://lira-records:crg350dxwh30@lirarecords-yhs5d.mongodb.net/test?retryWrites=true&w=majority`,
-  { useNewUrlParser: true, useUnifiedTopology: true },
+  { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true, },
   (err, res) => {
     if (err) {
       throw err
